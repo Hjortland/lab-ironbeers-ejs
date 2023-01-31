@@ -1,0 +1,8 @@
+<div>
+    <% randomBeerFromAPI.forEach((beer)) => { %>
+        <%- include('/views/partials/beer.ejs', {beer}) %>
+    <p><%- beer.food_pairing %> </p>
+    <p><%- beer.brewers_tips %> </p>  
+    </div>
+    <% }) %> 
+</div>
